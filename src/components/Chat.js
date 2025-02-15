@@ -215,7 +215,7 @@ function Chat() {
   const fetchMessages = async () => {
     try {
       const response = await fetch(
-        `http://localhost:1337/api/messages?filters[user][id][$eq]=${userId}&pagination[pageSize]=1000&populate=user`,
+        `${process.env.REACT_APP_BACKEND_URL}/api/messages?filters[user][id][$eq]=${userId}&pagination[pageSize]=1000&populate=user`,
         {
           headers: {
             Authorization: `Bearer ${token}`,

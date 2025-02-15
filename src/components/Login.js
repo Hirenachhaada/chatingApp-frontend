@@ -63,10 +63,13 @@ const Login = ({ setToken }) => {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post(`http://localhost:1337/api/auth/local`, {
-        identifier,
-        password,
-      });
+      const res = await axios.post(
+        `${process.env.REACT_APP_BACKEND_URL}/api/auth/local`,
+        {
+          identifier,
+          password,
+        }
+      );
 
       localStorage.setItem("token", res.data.jwt);
       localStorage.setItem("userId", res.data.user.id);

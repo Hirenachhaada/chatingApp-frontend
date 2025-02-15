@@ -59,7 +59,7 @@
 
 import React, { useState } from "react";
 import axios from "axios";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 const SignUp = () => {
   const [username, setUsername] = useState("");
@@ -168,12 +168,12 @@ const SignUp = () => {
           </button>
           <p style={{ marginTop: "15px", fontSize: "14px", color: "#666" }}>
             Already have an account?{" "}
-            <a
+            <Link
               href="/login"
               style={{ color: "#1976d2", textDecoration: "none" }}
             >
               Login
-            </a>
+            </Link>
           </p>
         </form>
       </div>

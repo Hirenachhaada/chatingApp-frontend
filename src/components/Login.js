@@ -53,7 +53,7 @@
 
 import React, { useState } from "react";
 import axios from "axios";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom"; // Add Link import
 
 const Login = ({ setToken }) => {
   const [identifier, setIdentifier] = useState("");
@@ -151,12 +151,12 @@ const Login = ({ setToken }) => {
         </form>
         <p style={{ marginTop: "15px", fontSize: "14px", color: "#666" }}>
           Don't have an account?{" "}
-          <a
+          <Link
             href="/signup"
             style={{ color: "#1976d2", textDecoration: "none" }}
           >
             Sign up
-          </a>
+          </Link>
         </p>
       </div>
     </div>

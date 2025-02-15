@@ -4,8 +4,10 @@
 This is the **frontend** of a real-time chat application built using **React.js**. The application allows users to sign up, log in, and chat in real-time with WebSocket support.
 
 ## 🌐 Deployed URL
-The frontend is deployed on **Render** and can be accessed here:
+The application is deployed on **Render** and can be accessed here:
 🔗 [Chat App Frontend](https://chatingapp-frontend.onrender.com)
+
+Also the link for the github of the [backend code](https://github.com/Hirenachhaada/chatingApp-backend) 
 
 ## 📅 Deployment Date
 This application was deployed on **February 15, 2025**.

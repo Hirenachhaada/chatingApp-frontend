@@ -168,12 +168,12 @@ const SignUp = () => {
           </button>
           <p style={{ marginTop: "15px", fontSize: "14px", color: "#666" }}>
             Already have an account?{" "}
-            <Link
-              href="/login"
+            <span
+              onClick={() => navigate("/login")}
               style={{ color: "#1976d2", textDecoration: "none" }}
             >
               Login
-            </Link>
+            </span>
           </p>
         </form>
       </div>

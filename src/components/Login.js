@@ -151,12 +151,16 @@ const Login = ({ setToken }) => {
         </form>
         <p style={{ marginTop: "15px", fontSize: "14px", color: "#666" }}>
           Don't have an account?{" "}
-          <Link
-            href="/signup"
-            style={{ color: "#1976d2", textDecoration: "none" }}
+          <span
+            onClick={() => navigate("/signup")}
+            style={{
+              color: "#1976d2",
+              textDecoration: "none",
+              cursor: "pointer",
+            }}
           >
             Sign up
-          </Link>
+          </span>
         </p>
       </div>
     </div>

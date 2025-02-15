@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Chat Application - Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🚀 Overview
+This is the **frontend** of a real-time chat application built using **React.js**. The application allows users to sign up, log in, and chat in real-time with WebSocket support.
 
-## Available Scripts
+## 🌐 Deployed URL
+The frontend is deployed on **Render** and can be accessed here:
+🔗 [Chat App Frontend](https://chatingapp-frontend.onrender.com)
 
-In the project directory, you can run:
+## 📅 Deployment Date
+This application was deployed on **February 15, 2025**.
 
-### `npm start`
+## ⚠️ Important Notice
+Render allows a **free PostgreSQL database** only for **2 days**. After that, the database may stop functioning, which could impact the application's login and chat functionalities.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Tech Stack
+- **React.js** (Frontend Framework)
+- **React Router** (Navigation)
+- **WebSockets** (Real-time communication)
+- **CSS** (Styling)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🏗️ Setup & Installation
+To run the frontend locally, follow these steps:
 
-### `npm test`
+### 1️⃣ Clone the Repository
+```bash
+git clone [https://github.com/your-repo/frontend.git](https://github.com/Hirenachhaada/chatingApp-frontend)
+cd frontend
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 2️⃣ Install Dependencies
+```bash
+npm install
+```
 
-### `npm run build`
+### 3️⃣ Start the Application
+```bash
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The application will be available at `http://localhost:3000`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🔗 Backend Connection
+The frontend communicates with the **Strapi backend** for authentication and real-time messaging.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+📌 Make sure your backend is running before using the chat features.
 
-### `npm run eject`
+## 📞 Contact
+For any issues, feel free to raise an issue on GitHub.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Enjoy chatting! 🎉
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

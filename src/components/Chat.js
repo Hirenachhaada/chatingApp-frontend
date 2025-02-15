@@ -215,7 +215,7 @@ function Chat() {
   const fetchMessages = async () => {
     try {
       const response = await fetch(
-        `${process.env.REACT_APP_BACKEND_URL}/api/messages?filters[user][id][$eq]=${userId}&pagination[pageSize]=1000&populate=user`,
+        `https://chatingapp-backend.onrender.com/api/messages?filters[user][id][$eq]=${userId}&pagination[pageSize]=1000&populate=user`,
         {
           headers: {
             Authorization: `Bearer ${token}`,

@@ -64,7 +64,7 @@ const Login = ({ setToken }) => {
     e.preventDefault();
     try {
       const res = await axios.post(
-        `${process.env.REACT_APP_BACKEND_URL}/api/auth/local`,
+        `https://chatingapp-backend.onrender.com/api/auth/local`,
         {
           identifier,
           password,
